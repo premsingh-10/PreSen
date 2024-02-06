@@ -1,0 +1,128 @@
+/* src/components/LoginBox.css */
+/* src/components/LoginBox.css */
+.login-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  
+  .login-box__title {
+    font-size: larger;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .login-box__form {
+    margin-top: 20px;
+  }
+  
+  .login-box__label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .login-box__input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-box__button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-box__button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-box__register {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-box__register-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+
+
+  /* src/components/RegisterBox.css */
+.register-box {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .register-box__title {
+    font-size: larger;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .register-box__form {
+    margin-top: 20px;
+  }
+  
+  .register-box__label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .register-box__input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-box__button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .register-box__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-box__login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-box__login-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
